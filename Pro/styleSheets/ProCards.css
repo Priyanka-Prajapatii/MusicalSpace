@@ -1,0 +1,123 @@
+/********************************** Violin page *****************************************/
+
+.listStyle {
+    border: none;
+}
+
+.HeadVio {
+    font-size: 30px;
+}
+
+.viobadge {
+    position: relative;
+    right: 1.5rem;
+    top: -3rem;
+    margin-left: 190px;
+    height: 0px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 0px 10px 1px 10px;
+    color: white;
+}
+
+.gridBtn {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.socialContainer a {
+    color: rgb(51, 51, 53);
+}
+
+.fb a:hover {
+    color: rgb(4, 4, 100);
+}
+
+.twitter a:hover {
+    color: rgb(23, 114, 233);
+}
+
+.linkedin a:hover {
+    color: rgb(4, 86, 219);
+}
+
+.pinterest a:hover {
+    color: red;
+}
+
+.SocialM {
+    font-size: 24px;
+}
+
+
+/* 
+  Extra small devices (portrait phones, less than 576px)
+ 
+  Small devices (landscape phones, 320px and up) 
+ */
+
+@media (min-width: 320px) {
+    .imgvio {
+        width: rem;
+        height: 20rem;
+    }
+    .breadcrumb-vio {
+        display: none;
+    }
+}
+
+
+/* // Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .HeadVio {
+        font-size: 30px;
+    }
+    .breadcrumb-vio {
+        display: block;
+    }
+}
+
+
+/* // X-Large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    .HeadVio {
+        font-size: 40px;
+    }
+    .breadcrumb-vio {
+        display: block;
+    }
+    .viobadge {
+        right: 12.5rem;
+        height: 0px;
+        top: 0px;
+    }
+}
+
+
+/****************************************** Piano page ************************************************/
+
+
+/* 
+  Extra small devices (portrait phones, less than 576px)
+ 
+  Small devices (landscape phones, 320px and up) 
+ */
+
+.pbadge {
+    position: relative;
+    margin-left: 0px;
+    height: 0px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 0px 10px 1px 10px;
+    color: white;
+}
+
+@media (min-width: 320px) {
+    .Pbadge {
+        top: 1rem;
+        right: -13rem;
+    }
+}

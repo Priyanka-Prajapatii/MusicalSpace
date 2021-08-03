@@ -1,0 +1,30 @@
+.contSignUp {
+    background-color: white;
+}
+
+.SignUpPara {
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.SignUp1Para {
+    color: red;
+    font-size: 25px;
+}
+
+.btnSignUp {
+    padding: 8px 80px 8px 80px;
+    font-size: 25px;
+    margin: 20px 0px 100px 0px;
+}
+
+.colSignPara {
+    text-align: inherit;
+    color: rgb(39, 37, 37);
+    font-size: 20px;
+}
+
+.smSign {
+    font-size: 24px;
+    color: green;
+}

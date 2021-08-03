@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="../styleSheets/index.css">
+    <link rel="stylesheet" href="../Pro/styleSheets/ProCards.css">
+    <link rel="stylesheet" href="./styleSheets/FreeTut.css">
+
+
+    <title>Subscribe</title>
+</head>
+
+<body>
+
+    <!----------- An alert for hot sale ------------>
+    <div class="alert alertstyle" role="alert">
+        Hot Sale is on the way! HURRY UP!!
+    </div>
+
+    <!------- Navigation bar -------->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand br-Nav" href="../index.html"><strong> MusicalSpace</strong></a>
+
+            <ul class="nav nav-tabs ">
+                <li class="nav-item">
+                    <a class="nav-link nv-link" href="../Pro/Pro.html">Pro</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nv-link" href="./Tutorials.html">Free Tutorials</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nv-link" href="../signup.html">SignUp</a>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link nv-link" data-bs-toggle="modal" data-bs-target="#LoginModal"><i
+                            class="fa fa-user-circle-o"></i></button>
+                </li>
+            </ul>
+
+
+            <button class="btn btn-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                <i class="fa fa-bars bars"></i>
+            </button>
+
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header offcanvas-header-style">
+                    <h5 class="dpHead5"><a href="#" data-bs-toggle="modal" data-bs-target="#LoginModal">LogIn to
+                            MusicalSpace </a></h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body offcanvasStyle">
+                    <ul>
+                        <li>
+                            <a class="  dp-item" href="../Pro/violin.html ">Violin</a></li>
+                        <li><a class=" dp-item " href="../Pro/guitar.html ">Guitar</a></li>
+                        <li><a class=" dp-item " href="../Pro/piano.html ">Piano</a>
+                        </li>
+                        <li>
+                            <a class=" dp-item " href="../Pro/flute.html ">Flute</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Login Modal -->
+    <div class="modal" tabindex="-1" id="LoginModal">
+        <div class="modal-dialog  modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bg-light">
+                    <h5 class="modal-title">Log In</h5>
+                    <button type="button" class=" btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3 row">
+                        <label for="exampleFormControlInput1" class="col-sm-2 col-form-label">Email Address</label>
+                        <div class="mb-3 col-sm-10">
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email@example.com">
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                        <div class="col-sm-10">
+                            <input type="password" class="form-control" id="inputPassword">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger">LogIn</button>
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------Search bar--------->
+    <div class="container-fluid bg-dark h-50 d-inline-block ">
+        <form class="d-flex ">
+            <input class="form-control me-2 searchh " type=" search " placeholder="Search tutorials and products " aria-label="Search ">
+            <button class="btn btn-outline-success btnSearch " type="submit "><i class="fa fa-search "></i></button>
+        </form>
+    </div>
+
+
+    <br><br><br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 com-sm-12">
+                <div id=" list-example " class="list-group ">
+                    <a class=" list-group-item list-group-item-action listStyle" href="#list-item-1 ">
+                        <video class="imgvio rounded img-fluid img-thumbnail" controls poster="./images/flute1.jpg">
+                            <source src="./videos/flute.mp4" type="video/mp4">
+                        </video>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-6 com-sm-12 ">
+                <div data-bs-spy="scroll " data-bs-target="#list-example " data-bs-offset="0 " class="scrollspy-example " id="list-item-1" tabindex="0 ">
+                    <nav style="--bs-breadcrumb-divider: '>'; border: none;" aria-label="breadcrumb" class="breadcrumb-vio">
+                        <ol class="breadcrumb ">
+                            <li class="breadcrumb-item">
+                                ALL TUTORIALS
+                            </li>
+                            <li class="breadcrumb-item">
+                                FREE TUTORIALS
+                            </li>
+                        </ol>
+                    </nav>
+
+                    <p class="HeadVio">How to Blow Correctly
+                    </p>
+                    <br>
+                    <p class="Download">DOWNLOAD SAMPLE VIDEO</p>
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-danger gridBtn" type="button" data-bs-toggle="modal" data-bs-target="#SignUpModal">DOWNLOAD
+                        </button>
+                    </div>
+                    <br>
+
+                    <h5>DESCRIPTION</h5>
+                    <p>Learn to make sound, and to hold a flute properly.</p>
+                    <p>If you're a beginner this video will help you master Tone, Breathing, Posture, Sight-Reading, Rhythm and more.</p>
+                    <p>Ready to learn more about Flute? Check out
+                        <a href="./flute.html">How to Master Flute</a>.
+                    </p>
+                    <br><br><br>
+                    <div class="socialContainer">
+                        <h6>SHARE</h6>
+                        <span class="linkedin">
+                            <a href="https://www.linkedin.com/" target="_blank" class=" fa fa-linkedin-square SocialM">
+                            </a>
+                        </span>
+                        <span class="fb">
+                            <a href="https://www.facebook.com/" target="_blank" class=" fa fa-facebook-square SocialM">
+                            </a>
+                        </span>
+                        <span class="twitter">
+                            <a href="https://twitter.com/explore" target="_blank" class="fa fa-twitter-square SocialM">
+                            </a>
+                        </span>
+                        <span class="pinterest">
+                            <a href="https://in.pinterest.com/" target="_blank" class="fa fa-pinterest-square SocialM">
+                            </a>
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!------------------------------ Log In/Sign Up Modal ---------------------------------->
+    <div class="modal" tabindex="-1" id="SignUpModal">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content ">
+                <div class="modal-header bg-light" id=" modal-title">
+                    <button type="button" class=" btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <center>
+                    <div class="modal-boody" id="modalboody">
+                        <div id="mainContent" class="mainContent">
+                            <br>
+                            <h1 id="headh2" class="headh2">Create a FREE Account</h1>
+                            <p id="parah3">To download sample videos & more!</p>
+                            <br>
+                            <div class="cont">
+                                <a href='https://www.facebook.com/' target='_blank' class="btnhead" id="fbb">
+                                    <span id="fb " class=" fa fa-facebook fb">
+                                    </span> Register with facebook
+                                </a>
+                                <br><br><br>
+                                <a href=' https://twitter.com/explore ' target='_blank' class="btnhead">
+                                    <span id="twit " class=" fa fa-twitter twit ">
+                                    </span> Register with Twitter
+                                </a>
+                                <br><br><br>
+                                <a href='https://www.google.com/gmail/' target='_blank' class="btnhead ">
+                                    <span id="google " class="fa fa-google google">
+                                    </span> Register with Google
+                                </a>
+                            </div>
+                            <br><br><br>
+                            <p id="parah2 " class="parah2 ">ALREADY HAVE AN ACCOUNT?<a id="LogInModal " class="LogInModal " onclick=' Onclicks() '> LOG IN</a></p>
+                        </div>
+                    </div>
+                </center>
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+
+    <!---------------- Footer ---------------->
+    <footer class="global-footer bg-dark">
+        <div class="container">
+            <div class="row upper-footer footer">
+                <div class="col-sm-12 col-md-2 hidden-xs">
+                    <div class="logo">
+                        <p>&#169 2017-2021 MusicalSpace, Inc.</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-md-2 footerlink">
+                    <p><a href="../About.html">About Us</a></p>
+                </div>
+                <div class="col-sm-4 col-md-2 footerlink">
+                    <p><a href="../privacyPolicy.html">Privacy</a></p>
+                </div>
+                <div class="col-sm-4 col-md-2 footerlink">
+                    <p><a href="#" style=>Back to top</a></p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js " integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf " crossorigin="anonymous ">
+    </script>
+    <script src="../js/LogInModal.js "></script>
+</body>
+
+</html>

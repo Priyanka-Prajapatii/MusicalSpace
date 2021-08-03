@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="./styleSheets/index.css">
+    <link rel="stylesheet" href="./styleSheets/search.css">
+
+    <title>Subscribe</title>
+</head>
+
+<body>
+
+    <!----------- An alert for hot sale ------------>
+    <div class="alert alertstyle" role="alert">
+        Hot Sale is on the way! HURRY UP!!
+    </div>
+
+    <!------- Navigation bar -------->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand br-Nav" href="./index.html"><strong> MusicalSpace</strong></a>
+
+            <ul class="nav nav-tabs ">
+                <li class="nav-item">
+                    <a class="nav-link nv-link" href="./Pro/Pro.html">Pro</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nv-link" href="./FreeTut/Tutorials.html">Free Tutorials</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nv-link" href="../signup.html">SignUp</a>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link nv-link" data-bs-toggle="modal" data-bs-target="#LoginModal"><i
+              class="fa fa-user-circle-o"></i></button>
+                </li>
+            </ul>
+
+
+            <button class="btn btn-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+        <i class="fa fa-bars bars"></i>
+      </button>
+
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header offcanvas-header-style">
+                    <h5 class="dpHead5"><a href="#" data-bs-toggle="modal" data-bs-target="#LoginModal">LogIn to MusicalSpace </a></h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body offcanvasStyle">
+                    <ul>
+                        <li>
+                            <a class="  dp-item" href="./Pro/violin.html ">Violin</a></li>
+                        <li><a class=" dp-item " href="./Pro/guitar.html ">Guitar</a></li>
+                        <li><a class=" dp-item " href="./Pro/piano.html ">Piano</a>
+                        </li>
+                        <li>
+                            <a class=" dp-item " href="./Pro/flute.html ">Flute</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Login Modal -->
+    <div class="modal" tabindex="-1" id="LoginModal">
+        <div class="modal-dialog  modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bg-light">
+                    <h5 class="modal-title">Log In</h5>
+                    <button type="button" class=" btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3 row">
+                        <label for="exampleFormControlInput1" class="col-sm-2 col-form-label">Email Address</label>
+                        <div class="mb-3 col-sm-10">
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email@example.com">
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                        <div class="col-sm-10">
+                            <input type="password" class="form-control" id="inputPassword">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger">LogIn</button>
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------Search bar--------->
+    <div class="container-fluid wrapper d-block-inline">
+        <div class="search-input">
+            <input id='filter' type="text" placeholder="Search Products...">
+            <div class="autocom-box">
+                <ul>
+                    <li>
+                        <a href="/Pro/flute.html " target="_blank "> How to Master Flute</a></li>
+                    <li>
+                        <a href="/Pro/guitar.html " target="_blank "> The Beginner's Guide to learn Guitar</a></li>
+                    <li>
+                        <a href="/Pro/piano.html " target="_blank "> Learn to Master Piano</a></li>
+                    <li>
+                        <a href="/Pro/violin.html " target="_blank "> The Beginner's Guide to learn violin</a></li>
+                    <li>
+                        <a href="/FreeTut/freeViolin.html " target="_blank "> How to Hold the Violin & Bow</a></li>
+                    <li>
+                        <a href="/FreeTut/freePiano.html " target="_blank "> How to Play Some Simple Chords</a></li>
+                    <li>
+                        <a href="/FreeTut/freeFlute.html " target="_blank "> How to Blow Correctly</a></li>
+                    <li>
+                        <a href="/FreeTut/freeGuitar.html " target="_blank "> The Correct Way to Hold a Guitar</a></li>
+                </ul>
+            </div>
+            <div class="icon"><i class="fa fa-search"></i></div>
+        </div>
+    </div>
+
+
+
+    <br><br><br>
+    <!--------------------------------------------------- Main Content -------------------------------------------------------------------->
+    <div class="container privacySpace">
+        <h2>
+            <strong>Privacy Policy, Cookie Policy, and Data Processing Addendum</strong>
+        </h2><br>
+        <p>Welcome to MusicalSpace's website! The use of our website, musicalsapce.com and our tutorials (collectively, the "Services") is governed by our terms and conditions of use and the following privacy policy ("Legal Notices"). Our Services are provided
+            by MusicalSpace. By using our Services, whether you are a registered user or not, you expressly agree to these Legal Notices which are provisioned to protect both you and us.</p>
+        <br>
+
+        <i>Updated  March 12th,2021</i>
+        <br><br><br>
+
+        <h2> Collection And Use</h2>
+        <br>
+        <p>While using our Services, we may ask you to provide us with certain personally identifiable information that can be used to conntact or identify you. Personally identifiable information may include, but is not limited to, your email address, name,
+            phone number, credit card information, and postal address("Personal Information").</p>
+        <br>
+
+        <p><strong>Personal Information</strong></p>
+        <br>
+        <p>Personal information can be used to identify you. It may also be used with other pieces of personal information to identify you. To provide our Services, MusicalSpace sometimes may collect personal information such as your name, address, e-mail
+            address, telephone number, and billing,credit card information,and may sometimes be combined with additional information such as zip code and IP address.
+        </p>
+        <br>
+
+        <h2>Information We Share with Third Parties</h2>
+        <br>
+        <p>MusicalSpace collects data that is critical to the function of our Services and delivering the best experience possible. As a general rule, we will not share or otherwise disclose any of your personally identifiable information except when we
+            have your permission or under special circumstances, such as we believe in good faith that the law requires it or under the following circumstances: 1) Under a confidentiality agreement, we may match user information with third-party data.
+            2) We may disclose aggregated user statistics (for example, we have customers in 148 countries) in order to describe our Services to prospective partners, advertisers, and other third parties, and for other lawful purposes.</p>
+        <br>
+
+        <h2>Sharing by You</h2>
+        <br>
+        <p>You will have the ability to share your User Content with another user(s). If you share your User Content with anyone, we shall have no liability to you (or anyone you share your User Content). We will not make any User Content that you keep private
+            and do no share available to any third party except to a third party authorized by you to access such information or if the law requires.</p>
+        <p><strong>Information You Generate, Submit and/or Post</strong></p>
+        <p>You are solely responsible for the information you generate, submit and/or post on our website using our Services (as outlined in our Terms and Conditions of Use). MusicalSpace assumes no liability for the information you generate, submit and/or
+            post on our website using our Services.</p>
+        <br>
+
+        <h2>Protecting Your Information</h2>
+        <br>
+        <p>Your personal account information with MusicalSpace is password protected so that you and only you have access to this personal information and the User Content therein. We recommend that you do not disclose your unique identifier or password
+            to anyone. Also, remember to sign out of your account and close your browser window when you have finished using our Services. This is to ensure that others cannot access your personal information or User Content.</p>
+        <p>Unfortunately, no data transmission over the Internet can be guaranteed to be 100% secure. As a result, while we strive to protect your personal information, we cannot ensure or warrant the security of any information you transmit to us or from
+            our online Services, and you do so at your own risk. Once we receive your transmission, we make our best effort to ensure its security on our systems.</p>
+        <br>
+
+        <h2>Communications</h2>
+        <br>
+        <p>We may use your Personal Information to contact you with newsletters, marketing or promotional materials and other information that may be of interest to you. You may opt out of receiving any, or all, of these communications from us by following
+            the unsubscribe link or instructions provided in any email we send.</p>
+        <br>
+
+        <h2>For Additional Information </h2>
+        <br>
+        <p>If you have any questions regarding our Legal Notices, please contact info@musicalsapce.com.</p>
+        <p>IF YOU DO NOT AGREE TO ALL OF OUR LEGAL NOTICES, YOU MUST NOT USE OUR WEBSITE OR OUR SERVICES. BY USING OUR WEBSITE AND OUR SERVICES, YOU ACKNOWLEDGE THAT YOU HAVE READ AND UNDERSTAND OUR LEGAL NOTICES AND YOU AGREE TO BE BOUND BY THESE TERMS
+            AND CONDITIONS.</p>
+        <p><strong>CONTACT US</strong>: For questions or comments regarding our Privacy Policy and/or the Web Site, please send an email to <a href="./">info@musicalsapce.com</a>.</p>
+    </div>
+    <br><br>
+
+    <!---------------- Footer ---------------->
+    <footer class="global-footer bg-dark">
+        <div class="container">
+            <div class="row upper-footer footer">
+                <div class="col-sm-12 col-md-2 hidden-xs">
+                    <div class="logo">
+                        <p>&#169 2017-2021 MusicalSpace, Inc.</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-md-2 footerlink">
+                    <p><a href="./About.html">About Us</a></p>
+                </div>
+                <div class="col-sm-4 col-md-2 footerlink">
+                    <p><a href="./privacyPolicy.html">Privacy</a></p>
+                </div>
+                <div class="col-sm-4 col-md-2 footerlink">
+                    <p><a href="#" style=>Back to top</a></p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="./js/Suggestions.js"></script>
+    <script type="text/javascript" src="./js/Script.js"></script>
+</body>
+
+</html>

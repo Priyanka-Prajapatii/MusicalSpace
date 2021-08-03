@@ -1,0 +1,55 @@
+.Download {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.headh2 {
+    font-family: Georgia;
+    font-size: 28px;
+}
+
+#parah2 {
+    font-size: 13px;
+}
+
+.btnhead {
+    border: 5px solid rgb(84, 82, 82);
+    color: black;
+    font-size: 15px;
+    border-radius: 30rem;
+    background-color: white;
+    padding: 10px 100px 10px 100px;
+    text-decoration: none;
+}
+
+.fb {
+    color: blue;
+}
+
+.twit {
+    color: rgb(23, 114, 233);
+}
+
+.google {
+    color: red;
+}
+
+.btnhead:hover {
+    border: 5px solid rgb(128, 124, 124);
+    color: rgb(117, 115, 115);
+}
+
+.fb:hover {
+    color: rgb(109, 129, 242);
+}
+
+.twit:hover {
+    color: rgb(81, 152, 245);
+}
+
+.google:hover {
+    color: rgb(245, 118, 130);
+}
+
+#parah3 {
+    font-size: 22px;
+}

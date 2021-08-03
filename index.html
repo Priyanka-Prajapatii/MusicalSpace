@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="./styleSheets/index.css">
+
+    <title>Musical Space</title>
+</head>
+
+<body>
+    <!----------- An alert for hot sale ------------>
+    <div class="alert alertstyle" role="alert">
+        Hot Sale is on the way! HURRY UP!!
+    </div>
+
+    <!------- Navigation bar -------->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand br-Nav" href="./index.html"><strong> MusicalSpace</strong></a>
+
+            <ul class="nav nav-tabs ">
+                <li class="nav-item">
+                    <a class="nav-link nv-link" href="./Pro/Pro.html">Pro</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nv-link" href="./FreeTut/Tutorials.html">Free Tutorials</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nv-link" href="../signup.html">SignUp</a>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link nv-link" data-bs-toggle="modal" data-bs-target="#LoginModal"><i
+              class="fa fa-user-circle-o"></i></button>
+                </li>
+            </ul>
+
+
+            <button class="btn btn-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+        <i class="fa fa-bars bars"></i>
+      </button>
+
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header offcanvas-header-style">
+                    <h5 class="dpHead5"><a href="#" data-bs-toggle="modal" data-bs-target="#LoginModal">LogIn to MusicalSpace </a></h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body offcanvasStyle">
+                    <ul>
+                        <li>
+                            <a class="   dp-item" href="./Pro/violin.html ">Violin</a></li>
+                        <li><a class=" dp-item " href="./Pro/guitar.html ">Guitar</a></li>
+                        <li><a class=" dp-item " href="./Pro/piano.html ">Piano</a>
+                        </li>
+                        <li>
+                            <a class="  dp-item " href="./Pro/flute.html ">Flute</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Login Modal -->
+    <div class="modal" tabindex="-1" id="LoginModal">
+        <div class="modal-dialog  modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bg-light">
+                    <h5 class="modal-title">Log In</h5>
+                    <button type="button" class=" btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3 row">
+                        <label for="exampleFormControlInput1" class="col-sm-2 col-form-label">Email Address</label>
+                        <div class="mb-3 col-sm-10">
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email@example.com">
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                        <div class="col-sm-10">
+                            <input type="password" class="form-control" id="inputPassword">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger">LogIn</button>
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!------Search bar--------->
+     <div class="container-fluid bg-dark h-50 d-inline-block ">
+        <form class="d-flex ">
+            <input class="form-control me-2 searchh " type=" search " placeholder="Search tutorials and products " aria-label="Search ">
+            <button class="btn btn-outline-success btnSearch " type="submit "><i class="fa fa-search "></i></button>
+        </form>
+    </div>
+
+    <!-------Hot Deals------->
+    <div class="container px-4 displayContent">
+        <div class="row gx-6 ">
+            <div class="col-sm-12 col-lg-6 ">
+                <div class="p-3 p3">
+                    <center>
+                        <h3>30% OFF SALE!</h3>
+                        <p class="HotDeals">We are celebrating 5years of MusicalSpace!</p>
+                        <p class="HotDeals">Come join us and learn to play Guitar, Flute and more!</p>
+                        <p class="HotDeals"> New content every week. Cancel anytime.</p>
+                        <h5 class="HotDealsH5">From <strike>9999.99/year</strike> ₹6999.99/year</h5>
+                        <br>
+                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#GetStartedModal">
+                            Get Started
+                          </button>
+                    </center>
+
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-6 ">
+                <div class="p-3 ">
+                    <div id="carouselExampleFade " class="carousel slide carousel-fade " data-bs-ride="carousel ">
+                        <div class="carousel-inner ">
+                            <center>
+
+                                <div class="carousel-item active ">
+                                    <img src="https://images.unsplash.com/photo-1617732846924-74768931b81c?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=600&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjE4MzEwMDI5&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=600 "
+                                        class="d-block w-50 " alt="... ">
+                                </div>
+                                <div class="carousel-item ">
+                                    <img src="https://images.unsplash.com/photo-1617136884450-7c73cbe71ed4?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjE4MzExMTgy&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=400 "
+                                        class="d-block w-50 " alt="... ">
+                                </div>
+                                <div class="carousel-item ">
+                                    <img src="https://images.unsplash.com/photo-1617133598406-e51e00732d9f?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjE4MzEwOTU1&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=400 "
+                                        class="d-block w-50 " alt="... ">
+                                </div>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Get Started Modal -->
+    <div class="modal" tabindex="-1" id="GetStartedModal">
+        <div class="modal-dialog  modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bg-light" id=" modal-title">
+                    <p id="modalpara"> STEP 1 OF 3</p>
+                    <button type="button" class=" btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <center>
+                    <div class="modal-body" id="modalbody">
+                        <p class="ModP"><strong>30% Off Sale!</strong></p>
+                        <p class="ModP">5 Year Anniversary Sale!</p>
+                        <p class="ModP">Get PRO Tutorials! Discount automatically applied.</p>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col colStyle">
+                                    <br><br><br><br>
+                                    <p class="colP"> MONTHLY</p>
+                                    <p class="colP colP1"><strong>₹799</strong></p>
+                                    <p class="colP">PER MONTH</p>
+                                    <br><br><br>
+                                    <button type="button " class="btn btn-secondary continue " onclick='OnClicks()'>Continue</button>
+                                </div>
+                                <div class="col colStyle colStyleDiv">
+                                    <h1 class="header bg-danger headerStyle">Best Deal</h1>
+                                    <br><br>
+                                    <p class="headerPara"> ANNUAL</p>
+                                    <p class="headerPara header1Para"><strong>₹6999</strong></p>
+                                    <p class="headerPara">PER YEAR</p>
+                                    <p id="headerP1para"><strong>Discount Automatically Applied!</strong></p>
+                                    <br>
+                                    <button type="button " class="btn btn-danger " onclick='OnClicks()'>Continue</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-body " id="#Step2GetStarted "></div>
+                </center>
+            </div>
+        </div>
+    </div>
+
+
+    <br><br><br><br>
+
+    <!--------------- Professional tutorials cards --------------------->
+    <div class="container overflow-hidden displayContent">
+        <h6 class="ProfessionalHead">POPULAR PRO TUTORIALS <span class="badge bg-light "><a href="./Pro/Pro.html ">VIEW MORE</a></span></h6>
+        <div class="row gx-2 ">
+            <div class="col-xl-3 col-lg-6 col-sm-6 ">
+                <div class="p-3 ">
+                    <div class="card cardStyle cardSearch">
+                        <a href="./Pro/guitar.html ">
+                            <span class="notify-badge ">PRO</span>
+                            <img src="https://images.unsplash.com/photo-1618190232967-ccde1f6e0189?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjE4NTg4NzAw&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600 "
+                                class="card-img-top img-fluid img-thumbnail " alt="... ">
+                            <div class="card-body ">
+                                <p class="card-text ">The Beginner's Guide to learn Guitar</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-6 col-sm-6 ">
+                <div class="p-3 ">
+                    <div class="card cardStyle cardSearch">
+                        <a href="./Pro/flute.html ">
+                            <span class="notify-badge ">PRO</span>
+                            <img src="./images/Flute-Player.jpg " class="card-img-top img-fluid img-thumbnail " alt="... ">
+                            <div class="card-body ">
+                                <p class="card-text ">How to Master Flute</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-6 col-sm-6 ">
+                <div class="p-3 ">
+                    <div class="card cardStyle cardSearch">
+                        <a href="./Pro/piano.html ">
+                            <span class="notify-badge ">PRO</span>
+                            <img src="../images/piano.jpg " class="card-img-top img-fluid img-thumbnail " alt="... ">
+                            <div class="card-body ">
+                                <p class="card-text ">Learn to Master Piano</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-6 col-sm-6 ">
+                <div class="p-3 ">
+                    <div class="card cardStyle cardSearch">
+                        <a href="./Pro/violin.html ">
+                            <span class="notify-badge ">PRO</span>
+                            <img src="../images/violin.jpeg " class="card-img-top img-fluid img-thumbnail " alt="... ">
+                            <div class="card-body ">
+                                <p class="card-text ">The Beginner's Guide to learn violin</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+    <hr>
+
+
+    <!------------Carousel to display the best reviews from users  ------------------->
+    <div class="container displayContent">
+        <div id="carouselExampleIndicators " class="carousel slide " data-bs-ride="carousel ">
+            <div class="carousel-indicators ">
+                <button type="button " data-bs-target="#carouselExampleIndicators " data-bs-slide-to="0 " class="active " aria-current="true " aria-label="Slide 1 "></button>
+                <button type="button " data-bs-target="#carouselExampleIndicators " data-bs-slide-to="1 " aria-label="Slide 2 "></button>
+                <button type="button " data-bs-target="#carouselExampleIndicators " data-bs-slide-to="2 " aria-label="Slide 3 "></button>
+            </div>
+            <div class="carousel-inner ">
+                <div class="carousel-item active ">
+                    <img src="../images/f1.png " class="d-block w-100 img-fluid img-thumbnail " alt="... ">
+                </div>
+                <div class="carousel-item ">
+                    <img src="../images/f2.png " class="d-block w-100 img-fluid img-thumbnail " alt="... ">
+                </div>
+                <div class="carousel-item ">
+                    <img src="../images/f3.png " class="d-block w-100 img-fluid img-thumbnail " alt="... ">
+                </div>
+            </div>
+            <button class="carousel-control-prev " type="button " data-bs-target="#carouselExampleIndicators " data-bs-slide="prev ">
+        <span class="carousel-control-prev-icon " aria-hidden="true "></span>
+        <span class="visually-hidden ">Previous</span>
+      </button>
+            <button class="carousel-control-next " type="button " data-bs-target="#carouselExampleIndicators " data-bs-slide="next ">
+        <span class="carousel-control-next-icon " aria-hidden="true "></span>
+        <span class="visually-hidden ">Next</span>
+      </button>
+        </div>
+
+    </div>
+
+    <hr>
+
+    <br><br><br>
+
+    <!-- -----Hot Deals----- -->
+    <div class="container px-4 displayContent">
+        <div class="row gx-6 ">
+            <div class="col-sm-6 col-lg-6 ">
+                <div class="p-3 p3">
+
+                    <h2>Learn to play </h2>
+                    <h2>like a pro. </h2>
+                    <p class="HotDeals">
+                        "People. Music. Products. Learn the tips and techniques that the pros use to enhance sounds, remove distractions, and help bring out a subject 's natural beauty."
+                    </p>
+                    <br>
+                    <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#GetStartedModal">
+            Get Started
+          </button>
+
+
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-6">
+                <div class="p-3">
+                    <img src="https://images.unsplash.com/photo-1618121608721-343996002145?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218fHx8fHx8fHwxNjE4NjQ5Nzg2&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=300"
+                        class="img-fluid img-thumbnail" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <hr>
+
+    <!--------- Telling user to explore the content --------->
+    <div class="container px-4 bg-light displayContent">
+        <div class="row gx-6">
+            <div class="col-sm-6 col-lg-6">
+                <div class="p-3">
+                    <img src="./images/mob.png" class="img-fluid img-thumbnail" alt="">
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-6">
+                <div class="p-3 p3">
+                    <br><br>
+                    <h2>Unlimited streaming, </h2>
+                    <h2>wherever you are. </h2>
+                    <br>
+                    <p class="TellingP">
+                        "You're busy. We get it. </p>
+                    <p class="TellingP">
+                        Learn on your own time, and from wherever you are.
+                    </p>
+                    <p class="TellingP">
+                        No bulky video downloads.
+                    </p>
+                    <p class="TellingP">
+                        No waiting.
+                    </p>
+                    <p class="TellingP">
+                        Just hit play."
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <!------------ Family of Instructors ------------->
+    <div class="container px-4 displayContent">
+        <div class="row gx-5">
+            <center>
+                <p class="head"><i>Meet our <strong>family</strong> of instructors.</i> </p>
+                <p class="head2">Learn from some of the most creative, friendly, and fun artists and professionals in the world.
+                </p>
+            </center>
+            <div class="col-4">
+                <div class="p-3 familyDiv">
+                    <img src="./images/g1.png" class="img-fluid img-thumbnail" alt="Rob Woodcox">
+                    <center>
+                        <p>
+                            Rob Woodcox
+                        </p>
+                    </center>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="p-3 familyDiv1">
+                    <img src="./images/g2.png" class="img-fluid img-thumbnail" alt="">
+                    <center>
+                        <p>
+                            Adit Kundra
+                        </p>
+                    </center>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="p-3 familyDiv1">
+                    <img src="./images/g3.png" class="img-fluid img-thumbnail" alt="">
+                    <center>
+                        <p>
+                            Chinmay Gaur
+                        </p>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------------- Footer ---------------->
+    <footer class="global-footer bg-dark">
+        <div class="container">
+            <div class="row upper-footer footer">
+                <div class="col-sm-12 col-md-2 hidden-xs">
+                    <div class="logo">
+                        <p>&#169 2017-2021 MusicalSpace, Inc.</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-md-2 footerlink">
+                    <p><a href="./About.html">About Us</a></p>
+                </div>
+                <div class="col-sm-4 col-md-2 footerlink">
+                    <p><a href="./privacyPolicy.html">Privacy</a></p>
+                </div>
+                <div class="col-sm-4 col-md-2 footerlink">
+                    <p><a href="#" style=>Back to top</a></p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="./js/SignUpModal.js"></script>
+    <script type="text/javascript" src="./js/Suggestions.js"></script>
+    <script type="text/javascript" src="./js/searchSugggestion.js"></script>
+</body>
+
+</html>

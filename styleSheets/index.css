@@ -1,0 +1,210 @@
+        /*************** Styling alert************/
+        
+        .alertstyle {
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 18px;
+            background-color: rgb(240, 100, 100);
+            height: 25px;
+            text-align: center;
+            padding-top: 3px;
+            padding-bottom: 30px;
+            margin-bottom: 0px;
+        }
+        /* styling nav bar */
+        
+        .br-Nav {
+            font-family: cursive;
+            font-size: 30px;
+        }
+        
+        .nv-link {
+            color: white;
+        }
+        
+        .nv-link:hover {
+            color: white
+        }
+        
+        .bars {
+            font-size: 24px
+        }
+        
+        .offcanvas-header-style {
+            background-color: rgb(240, 109, 109)
+        }
+        
+        .dpHead5 a {
+            text-decoration: none;
+            color: white;
+        }
+        
+        .dpHead5 a:hover {
+            color: black;
+        }
+        
+        .offcanvasRightLabel {
+            color: white;
+            background-color: red;
+        }
+        
+        .offcanvasStyle {
+            background-color: black;
+        }
+        
+        .offcanvasStyle ul {
+            color: black;
+        }
+        
+        .dp-item {
+            color: white;
+            font-size: 20px;
+            text-decoration: none;
+        }
+        
+        .dp-item:hover {
+            color: rgb(243, 1, 41);
+        }
+        /* styling Get Started Modal */
+        
+        #modalpara {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        
+        .ModP {
+            font-size: 30px;
+        }
+        
+        .colStyle {
+            border: 2px solid #b4b4b4;
+            border-radius: 1rem;
+            padding: 0px 10px 30px 10px;
+            margin: 0px 10px 50px 10px;
+        }
+        
+        .colP {
+            font-size: 20px;
+            color: gray;
+        }
+        
+        .colP1 {
+            font-size: 50px;
+        }
+        
+        .colStyleDiv {
+            border-color: red;
+        }
+        
+        .headerStyle {
+            color: white;
+        }
+        
+        .headerPara {
+            font-size: 20px;
+            color: gray;
+        }
+        
+        .header1Para {
+            font-size: 50px;
+        }
+        
+        #headerP1para {
+            font-size: 15px;
+            color: red;
+        }
+        
+        .modal .modal-body button {
+            display: block;
+            max-width: 440px;
+            width: 100%;
+            margin: 25px auto 0;
+            border-radius: 4px;
+            background-color: #ff5248;
+            border: none;
+            padding: 15px 25px;
+            color: #fff;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        /* styling Professional tutorials cards */
+        
+        .ProfessionalHead {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+        }
+        
+        .cardStyle {
+            width: 18rem;
+        }
+        
+        .notify-badge {
+            position: absolute;
+            background: rgb(255, 0, 0);
+            height: 1.5rem;
+            top: 0.1rem;
+            right: 15.8rem;
+            width: 2rem;
+            text-align: center;
+            line-height: 2rem;
+            ;
+            font-size: 0.7rem;
+            border-radius: 10%;
+            color: white;
+            border: 1px solid rgb(255, 0, 21);
+        }
+        /* Telling user to explore the content */
+        
+        .TellingP {
+            font-size: 25px;
+        }
+        /* styling Family Instructor */
+        
+        .head {
+            font-size: 40px;
+            font-family: cursive;
+        }
+        
+        .head2 {
+            font-size: 20px;
+        }
+        
+        .col-4 img {
+            border-radius: 50rem;
+        }
+        
+        .familyDiv {
+            border-color: blue;
+            border-radius: 5rem;
+            text-align: center;
+        }
+        
+        .familyDiv1 {
+            border-radius: 5rem;
+            text-align: center;
+        }
+        /* styling Footer */
+        
+        .footer {
+            color: white;
+            padding: 20px 20px 10px 0px;
+        }
+        
+        .footerlink {
+            float: right;
+            padding: 20px 20px 10px 110px;
+        }
+        
+        .footerlink a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        .footerlink a:hover {
+            color: rgb(238, 137, 137);
+        }
+        /********************************************************* Privacy Page ******************************************************/
+        
+        .privacySpace h2 {
+            color: red;
+        }

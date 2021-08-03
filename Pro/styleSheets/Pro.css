@@ -1,0 +1,175 @@
+/* Breadcrumb for Pro Tutorials */
+
+.containerBread {
+    padding: 2% 0% 0% 0%;
+}
+
+
+/* 
+  Extra small devices (portrait phones, less than 576px)
+ 
+  Small devices (landscape phones, 320px and up) 
+ */
+
+@media (min-width: 320px) {
+    .nav-tabs {
+        display: none;
+    }
+    .imagePro {
+        border-radius: 10px;
+        width: 8rem;
+        height: 6em;
+    }
+    .Probadge {
+        position: relative;
+        top: 0.95rem;
+        right: 5.75rem;
+        margin-left: 190px;
+        height: 18px;
+    }
+    .paraPro {
+        display: none;
+    }
+    .violinPro a {
+        display: block;
+        margin-top: 0.8rem;
+        margin-left: 3rem;
+    }
+    .paraPro1 {
+        display: block;
+        margin-top: 1rem;
+        margin-left: -6rem;
+    }
+    .fa-star {
+        margin-top: -2rem;
+        color: red;
+    }
+    .hrPro {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .verline {
+        border-left: 0.1px solid rgb(159, 159, 161);
+        height: 23rem;
+        margin-left: 0px;
+        margin-top: -33px;
+    }
+}
+
+
+/* // Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .nav-tabs {
+        display: none;
+    }
+    .vl {
+        border-left: 0.1px solid rgb(159, 159, 161);
+        height: 0rem;
+        margin-left: 120px;
+        margin-bottom: -3px;
+    }
+    .Probadge {
+        position: relative;
+        top: 0.85rem;
+        right: -8.5rem;
+        margin-left: 190px;
+        height: 20px;
+    }
+    .imagePro {
+        border-radius: 10px;
+        width: 22rem;
+        height: 18em;
+    }
+    .violinPro a {
+        display: block;
+        margin-top: 20rem;
+        margin-left: -14rem;
+        font-size: 25px;
+    }
+    .paraPro1 {
+        display: block;
+        margin-top: -1rem;
+        margin-left: -13rem;
+        font-size: 20px;
+    }
+    .fa-star {
+        margin-top: -2rem;
+        margin-left: 10px;
+        color: red;
+    }
+    .hrPro {
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    .verline {
+        border-left: 0.1px solid rgb(159, 159, 161);
+        height: 0rem;
+        margin-left: 0px;
+        margin-top: -33px;
+    }
+}
+
+
+/* // Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    .nav-tabs {
+        display: flex;
+    }
+    .vl {
+        border-left: 0.1px solid rgb(159, 159, 161);
+        height: 23rem;
+        margin-left: 0px;
+        margin-bottom: -3px;
+    }
+    .Probadge {
+        position: relative;
+        top: 1rem;
+        right: -8.5rem;
+        margin-left: 190px;
+        height: 20px;
+    }
+    .imagePro {
+        border-radius: 10px;
+        width: 22em;
+        height: 18em;
+    }
+    .violinPro a {
+        float: inline-start;
+        text-align: left;
+        font-size: 27px;
+        color: #2c2c2c;
+        font-weight: 400;
+        line-height: 1em;
+        margin-top: 0rem;
+        margin-left: 0rem;
+    }
+    .violinPro a:hover {
+        color: red;
+    }
+    .paraPro {
+        display: block;
+        font-size: 22px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .paraPro1 {
+        margin-top: 1rem;
+        margin-left: 0rem;
+        font-family: cursive;
+        color: gray;
+    }
+    .fa-star {
+        color: red;
+        font-size: 20px;
+    }
+    .hrPro {
+        margin-left: 212px;
+    }
+    .verline {
+        border-left: 0.1px solid rgb(159, 159, 161);
+        height: 23rem;
+        margin-left: 0px;
+        margin-top: -33px;
+    }
+}

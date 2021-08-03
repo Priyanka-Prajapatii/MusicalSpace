@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="./styleSheets/index.css">
+    <link rel="stylesheet" href="./styleSheets/about.css">
+
+    <title>Musical Space</title>
+</head>
+
+<body>
+    <!----------- An alert for hot sale ------------>
+    <div class="alert alertstyle" role="alert ">
+        Hot Sale is on the way! HURRY UP!!
+    </div>
+
+    <!------- Navigation bar -------->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand br-Nav" href="./index.html"><strong> MusicalSpace</strong></a>
+
+            <ul class="nav nav-tabs ">
+                <li class="nav-item">
+                    <a class="nav-link nv-link" href="./Pro/Pro.html">Pro</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nv-link" href="./FreeTut/Tutorials.html">Free Tutorials</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nv-link" href="./signup.html">SignUp</a>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link nv-link" data-bs-toggle="modal" data-bs-target="#LoginModal"><i
+                            class="fa fa-user-circle-o"></i></button>
+                </li>
+            </ul>
+
+
+            <button class="btn btn-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                <i class="fa fa-bars bars"></i>
+            </button>
+
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header offcanvas-header-style">
+                    <h5 class="dpHead5"><a href="#" data-bs-toggle="modal" data-bs-target="#LoginModal">LogIn to
+                            MusicalSpace </a></h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body offcanvasStyle">
+                    <ul>
+                        <li>
+                            <a class="  dp-item" href="./Pro/violin.html ">Violin</a></li>
+                        <li><a class=" dp-item " href="./Pro/guitar.html ">Guitar</a></li>
+                        <li><a class=" dp-item " href="./Pro/piano.html ">Piano</a>
+                        </li>
+                        <li>
+                            <a class=" dp-item " href="./Pro/flute.html ">Flute</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Login Modal -->
+    <div class="modal" tabindex="-1" id="LoginModal">
+        <div class="modal-dialog  modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bg-light">
+                    <h5 class="modal-title">Log In</h5>
+                    <button type="button" class=" btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3 row">
+                        <label for="exampleFormControlInput1" class="col-sm-2 col-form-label">Email Address</label>
+                        <div class="mb-3 col-sm-10">
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email@example.com">
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                        <div class="col-sm-10">
+                            <input type="password" class="form-control" id="inputPassword">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger">LogIn</button>
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------Search bar--------->
+    <div class="container-fluid bg-dark h-50 d-inline-block ">
+        <form class="d-flex ">
+            <input class="form-control me-2 searchh " type=" search " placeholder="Search tutorials and products " aria-label="Search ">
+            <button class="btn btn-outline-success btnSearch " type="submit "><i class="fa fa-search "></i></button>
+        </form>
+    </div>
+
+
+    <!--------------------------------------Background------------------------------------------->
+    <div id="carouselExampleSlidesOnly " class="carousel slide " data-bs-ride="carousel ">
+        <div class="carousel-inner ">
+            <div class="carousel-item active ">
+                <img src="./images/about.jpg " class="d-block w-100 aboutImg " alt="... ">
+            </div>
+            <div class="centered ">
+                <h1>WE ARE MusicalSpace</h1><br>
+                <p>All about the company that makes learning fun!</p>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------------------Tabs to switch content--------------------------------->
+    <ul class="nav nav-tabs tabs ">
+        <li class="nav-item active ">
+            <a class="nav-link " href="#aboutmusic">ABOUT MusicalSpace</a>
+        </li>
+        <li class="nav-item ">
+            <a class="nav-link " href="#aboutValues">OUR VALUES</a>
+        </li>
+    </ul>
+
+
+    <!---------------------------------------Aboot MusicalSpace -------------------------------------------------------->
+    <br><br><br>
+    <div class="container px-4 " id="aboutmusic">
+        <div class="row gx-5 ">
+            <div class="col-lg-6 col-md-6 col-sm-12 ">
+                <div class="p-3 ">
+                    <h1>About MusicalSpace</h1>
+                    <div style="font-size: 23px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; ">
+                        <br>
+                        <p>Behind MusicalSpace, there is a small group of creatives who took up a giant mission to make the world of creative education better.</p>
+                        <br>
+                        <p><strong>Make Learning Fun.</strong> We create fun and engaging Musical Instruments tutorials for creatives in all phases of their career. We don't like dry boring tutorials either. Our goal is to make you laugh, make you smile,
+                            all while you master your craft.</p>
+                        <br>
+                        <p><strong>Make Learning Affordable.</strong> We believe that everyone deserves to learn from the best and they shouldn't be driven into debt to do it. We want MusicalSpace to be affordable to anyone anywhere who has the desire to
+                            learn.
+                        </p>
+                        <br>
+                        <p><strong>Make Learning Better.</strong> Since our mission is to empower anyone, anywhere to learn to master their creative skills, we have to raise the bar for online education. MusicalSpace is dedicated to delivering the best tutorials
+                            you have ever watched.</p>
+                        <br>
+                        <p>Welcome to the MusicalSpace. We are happy you are joining us on this journey!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-12 ">
+                <div class="p-3 ">
+                    <br><br><br>
+                    <table class="table " style="font-size: 23px; ">
+                        <tbody>
+                            <tr>
+                                <td style="color: purple; ">MusicalSpace has recorded over 100 tutorials.</td>
+                            </tr>
+                            <tr>
+                                <td style="color: teal; ">Our audience has consumed 60+ million minutes of video.</td>
+                            </tr>
+                            <tr>
+                                <td style="color: red; ">We have happy customers in 129 countries.</td>
+                            </tr>
+                            <tr>
+                                <td style="color: rgb(138, 138, 6); ">Our 8,000 sq ft studio is laid out like a giant living room.</td>
+                            </tr>
+                            <tr>
+                                <td style="color: blue; "> MusicalSpace has founded by Chinmay in 2017.</td>
+                            </tr>
+                            <tr>
+                                <td style="color: maroon; ">We have recieved over 200,000 comments on our videos </td>
+                            </tr>
+                            <tr>
+                                <td style="color: rgba(154, 61, 216, 0.801); ">Our overall community is now 1.6M followers.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="color: teal; ">We create all of our tutorials in-house, from scratch.</td>
+                            </tr>
+                            <tr>
+                                <td style="color: red; ">MusicalSpace has had three different studios since 2017.</td>
+                            </tr>
+                            <tr>
+                                <td style="color: rgb(138, 138, 6); ">The original studio was in Mumbai, India.</td>
+                            </tr>
+                            <tr>
+                                <td style="color: blue; ">The MusicalSpace team speaks five languages</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+
+    <!--------------------------------------------Our Values--------------------------------------------------------->
+    <div class="container bordervalues " id="aboutValues">
+        <center><br><br><br>
+            <h1>Our Values</h1>
+            <h5>We believe that MusicalSpace can be a better type of company!</h5>
+        </center>
+        <br><br>
+        <div class="container px-4 ">
+            <div class="row gx-5 ">
+                <div class="col-lg-3 col-md-3 col-sm-12 ">
+                    <div class="p-3 about ">
+                        <p>#1</p>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-7 col-sm-12 ">
+                    <br><br>
+                    <div class="p-3 ">
+                        <h4>Kindness</h4>
+                        <p>We believe in being kind, respectful, and generous. There is no better way to live one’s life and no better way to operate a company.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row gx-5 ">
+                <div class="col-lg-3 col-md-3 col-sm-12 ">
+                    <div class="p-3 about ">
+                        <p>#2</p>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-7 col-sm-12 ">
+                    <br><br>
+                    <div class="p-3 ">
+                        <h4>Quality</h4>
+                        <p>We want to amaze every customer with the quality, variety, and consistency of everything they recieve from MusicalSpace.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row gx-5 ">
+                <div class="col-lg-3 col-md-3 col-sm-12 ">
+                    <div class="p-3 about ">
+                        <p>#3</p>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-7 col-sm-12 ">
+                    <br><br>
+                    <div class="p-3 ">
+                        <h4>Community</h4>
+                        <p>We believe our content needs to be accessible for anyone, anywhere, regardless of the kind of art they create. MusicalSpace is a global community for everyone who wants to learn.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row gx-5 ">
+                <div class="col-lg-3 col-md-3 col-sm-12 ">
+                    <div class="p-3 about ">
+                        <p>#4</p>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-7 col-sm-12 ">
+                    <br><br>
+                    <div class="p-3 ">
+                        <h4>Transparency</h4>
+                        <p>We're all about open and honest. We actively share our knowledge and expertise, as we genuinely believe that if you put good things out into the world, it will feed back to you.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row gx-5 ">
+                <div class="col-lg-3 col-md-3 col-sm-12 ">
+                    <div class="p-3 about ">
+                        <p>#5</p>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-7 col-sm-12 ">
+                    <br><br>
+                    <div class="p-3 ">
+                        <h4>Delight</h4>
+                        <p>We want to surprise you with everything we do, whether it’s our products, customer service, or any little perks along the way!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row gx-5 ">
+                <div class="col-lg-3 col-md-3 col-sm-12 ">
+                    <div class="p-3 about ">
+                        <p>#6</p>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-7 col-sm-12 ">
+                    <br><br>
+                    <div class="p-3 ">
+                        <h4>Creativity</h4>
+                        <p>We’re never predictable or boring and we’ll always keep you on your toes. We say YES to the craziest ideas and push ourselves outside our comfort zone.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row gx-5 ">
+                <div class="col-lg-3 col-md-3 col-sm-12 ">
+                    <div class="p-3 about ">
+                        <p>#7</p>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-7 col-sm-12 ">
+                    <br><br>
+                    <div class="p-3 ">
+                        <h4>Silliness</h4>
+                        <p>We believe that everything we do should be fun! We also don’t take ourselves too seriously, life is too short for that 🙂</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+    <br><br><br><br>
+
+    <!---------------- Footer ---------------->
+    <footer class="global-footer bg-dark ">
+        <div class="container ">
+            <div class="row upper-footer footer ">
+                <div class="col-sm-12 col-md-2 hidden-xs ">
+                    <div class="logo ">
+                        <p>&#169 2017-2021 MusicalSpace, Inc.</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-md-2 footerlink ">
+                    <p><a href="./About.html ">About Us</a></p>
+                </div>
+                <div class="col-sm-4 col-md-2 footerlink ">
+                    <p><a href="./privacyPolicy.html ">Privacy</a></p>
+                </div>
+                <div class="col-sm-4 col-md-2 footerlink ">
+                    <p><a href="# " style=>Back to top</a></p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js " integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf " crossorigin="anonymous ">
+    </script>
+
+</body>
+
+</html>
